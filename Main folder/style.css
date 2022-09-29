@@ -6,7 +6,7 @@
 .hero {
     height: 100vh;
     width: 100%;
-    background-image: url(Images/san_background.jpg);
+    background-image: url(Images/landscape.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -23,13 +23,73 @@ nav {
 .logo{
     color: white;
     font-size: 35px;
+    cursor:pointer;
+    font-family: Josefin-sans;
+
 }
 span {
-    color: red;
+    color: salmon;
+    font-family: Josefin-sans;
 }
 
-ul, li {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 40px;
+
+nav ul li{
+    padding: 10px 25px;
+    display: inline-block;
+    list-style-type: None;
+
+}
+
+nav ul li a {
+    color: salmon;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: None;
+    text-transform: capitalize;
+}
+nav ul li a:hover {
+    color: white;
+    transition: .4s;
+}
+
+.btn {
+    background-color: salmon;
+    color: white;
+    padding: 10px 25px;
+    font-weight: bold;
+    text-decoration: None;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: .4s;
+
+}
+
+.btn:hover {
+    transform: scale(1.2)
+}
+
+.content{
+    position: absolute;
+    top: 30%;
+    margin-left: 600px;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+    font-weight: bold;
+
+}
+
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px
+}
+h4{
+    color: salmon;
+    letter-spacing: 2px;
+    font-size: 20px;
 }
